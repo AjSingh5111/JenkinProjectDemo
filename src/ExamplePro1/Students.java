@@ -10,7 +10,7 @@ public class Students extends HelloAj{
 
 	public static void main(String[] args) {
 		
-		HelloAj ht=new HelloAj("Ajay Singh", 101);
+		HelloAj ht=new Students("Ajay", 110);
 		System.out.println(ht.getRoll()+" "+ht.getName());
 	}
 
