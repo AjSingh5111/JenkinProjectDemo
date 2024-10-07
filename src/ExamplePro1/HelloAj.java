@@ -22,11 +22,5 @@ public class HelloAj {
 	public void setRoll(int roll) {
 		this.roll = roll;
 	}
-
-	@Override
-	public String toString() {
-		return "HelloAj [name=" + name + ", roll=" + roll + "]";
-	}
-	
 	
 }
