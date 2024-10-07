@@ -11,7 +11,9 @@ public class MyClassExp1 {
 		System.out.println("I am in Delhi");
 		System.out.println(new Date());
 		
-		HelloAj aj=new HelloAj("Ajay", 110);
+		HelloAj aj=new HelloAj();
+		aj.setName("Ajay");
+		aj.setRoll(110);
 		System.out.println(aj.getName()+" "+aj.getRoll());
 	}
 
